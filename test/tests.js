@@ -9,7 +9,7 @@ const test = QUnit.test;
 
 
 // name your test by what it is testing
-test('test 5 + 3', (expect) => {
+test('test math 5+3', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const x = 5;
