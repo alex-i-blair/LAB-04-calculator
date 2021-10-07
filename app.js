@@ -1,9 +1,12 @@
 // import functions
-import { add } from './calculations.js';
-import { subtract } from './calculations.js';
-import { multiply } from './calculations.js';
-import { division } from './calculations.js';
-import { exponent } from './calculations.js';
+import { 
+    add,
+    subtract,
+    multiply,
+    division,
+    exponent
+} from './calculations.js';
+
 // reference needed DOM elements
 function setupOperation(id, operation) {
     const number1 = document.getElementById(`${id}-number-1`);
