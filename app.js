@@ -1,5 +1,8 @@
 // import functions
+import { add } from "./calculations.js";
 
+
+console.log(add(50, 212));
 // reference needed DOM elements
 
 
